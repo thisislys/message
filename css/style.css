@@ -1,0 +1,47 @@
+﻿@chartset="utf-8";
+.wrap_mar { width: 1200px; margin: auto; }
+/* 我要咨询 */
+.wantConsult { margin-top: 30px; }
+.wantConsult .zxTitle { height: 68px; border-top: 2px solid #333333; }
+.wantConsult .zxTitle .p1 { font-size: 22px; line-height: 68px; color: #333; }
+.wantConsult .zxTitle .p2 .i14 { margin-top: 25px; }
+.wantConsult .zxTitle .p2 .i15 { margin-top: 31px; }
+.wantConsult .zxTitle .p2 span { margin: 30px 6px 0; font-size: 19px; font-style: italic; color: #333333; }
+.wantConsult_btm { height: 450px; overflow: hidden; margin-bottom: 30px; }
+.wantConsult_btm_left { width: 246px; padding-left: 35px; height: 450px; background: url('../images/sixpage1_21.png') no-repeat; }
+.wantConsult_btm_left .sixPage { font-size: 24px; font-weight: bold; color: #fff; margin: 44px 0 25px; }
+.wantConsult_btm_left ul li { height: 42px; line-height: 42px; font-size: 17px; color: #fff; }
+.wantConsult_btm_left ul li i { background: url('../images/xuhao.png') no-repeat; margin: 10px 7px 0 0; }
+.wantConsult_btm_left ul li .i16 { width: 20px; height: 22px; background-position: -1px -1px; }
+.wantConsult_btm_left ul li .i17 { width: 21px; height: 22px; background-position: 0px -43px; }
+.wantConsult_btm_left ul li .i18 { width: 21px; height: 22px; background-position: 0px -85px; }
+.wantConsult_btm_left ul li .i19 { width: 21px; height: 22px; background-position: 0px -127px; }
+.wantConsult_btm_left ul li .i20 { width: 21px; height: 22px; background-position: 0px -169px; }
+.wantConsult_btm_left ul li .i21 { width: 21px; height: 22px; background-position: 0px -211px; }
+.wantConsult_btm_left ul li font { font-size: 12px; }
+.wantConsult_btm_left .chanQuan { font-size: 12px; color: #fff; margin-top: 35px; line-height: 18px; }
+.wantConsult_btm_right { width: 919px; height: 450px; background: url('../images/sixpage2.png') no-repeat; }
+.wantConsult_btm_right .form { width: 510px; margin-left: 40px; }
+.wantConsult_btm_right .form textarea { padding: 15px 20px; width: 470px; height: 80px; line-height: 20px; font-size: 14px; color: #aeaeae; border-radius: 5px; margin-top: 40px; background: #f3f2f1; outline: none; }
+.wantConsult_btm_right .form .input_p { height: 40px; background: #f3f2f1; width: 490px; padding-left: 20px; border-radius: 5px; margin-top: 20px; }
+.wantConsult_btm_right .form .input_p .span1 { display: inline-block; width: 54px; height: 16px; line-height: 16px; border-right: 1px solid #d8d8d8; font-size: 16px; color: #404040; margin-top: 12px; text-align: text-justify; }
+.wantConsult_btm_right .input_p .txt { width: 270px; padding-left: 10px; border: none; background: #f3f2f1; height: 38px; line-height: 38px; outline: none; font-size: 14px; color: #aeaeae; }
+.wantConsult_btm_right .form textarea:focus { color: #666; }
+.wantConsult_btm_right .input_p .txt:focus { color: #666; }
+.input_p font { font-size: 14px; color: #666; margin-top: 12px; margin-right: 18px; margin-bottom:18px }
+.radio_box { display: inline-block; position: relative; margin-left: 10px; }
+.radio_box label { width: 16px; height: 16px; position: absolute; top: -1px; left: 0px; border: 1px solid #878787; border-radius: 50%; background: #fff; cursor: pointer; }
+.radio_box input { margin-right: 4px; margin-top: 1px; }
+.radio_box input:checked + label { border: 1px solid #ec2020; }
+.radio_box input:checked + label:after { content: ''; width: 10px; height: 10px; position: absolute; top: 3px; left: 3px; background: #ec2020; border-radius: 50%; }
+.check_box em { margin: 0 0 0 5px; }
+.input_p .span2 { display: block; width: 135px; height: 40px; border: none; border-left: 1px solid #d3d3d3; background: #ebebeb; color: #f22f2f; font-size: 15px; text-align: center; line-height: 40px; cursor: pointer; outline: none; }
+.sub_ziXun { margin-top: 30px; height: 50px; text-align: center; }
+.sub_ziXun input { width: 200px; height: 50px; font-size: 18px; color: #fff; background: #f43d3d; border-radius: 5px; border: none; outline: none; }
+.select_yixiang { width: 310px; height: 330px; background: rgba(255,255,255,.8); margin: 40px 40px 0 0; border-radius: 5px; position: relative; }
+.ninTitle { height: 45px; line-height: 45px; font-size: 15px; font-weight: bold; color: #666; padding-left: 18px; background: #f7f7f7; margin-bottom: 15px; border-radius: 5px 5px 0 0; }
+.ninTitle em { color: #f02c2c; }
+.select_yixiang li { height: 32px; line-height: 32px; font-size: 13px; color: #666666; background: url('../images/dian_81.png') no-repeat left center; margin-left: 18px; padding-left: 12px; cursor: pointer; overflow: hidden; }
+.select_yixiang li:hover { text-decoration: underline; }
+.select_yixiang .jiao { position: absolute; left: -8px; top: 19px; width: 8px; height: 12px; background: url('../images/jiao.png') no-repeat; }
+.select_yixiang li a { color: #666666; }
